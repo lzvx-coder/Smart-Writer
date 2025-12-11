@@ -1,0 +1,27 @@
+{
+  "name": "smartwriterapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^39.1.2",
+    "electron-builder": "^24.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "build": {
+    "appId": "com.smartwriter.app",
+    "win": {
+      "target": "portable",
+      "icon": "favicon.ico"  
+    },
+    "asar": true
+  }
+}
